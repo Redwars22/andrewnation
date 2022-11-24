@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 
 body {
     background-image: url('https://redwars22.github.io/andrewnation/assets/fictoflag.jpg');
@@ -19,4 +20,8 @@ body {
 
 .centered {
     text-align: center;
+}
+
+.title-font {
+    font-family: 'Teko', sans-serif !important;
 }
