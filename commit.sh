@@ -1,3 +1,3 @@
 git add . &&
-git commit -m "adicionando post novo e alterando cores da interface" &&
+git commit -m "adicionando logotipo do AthenaPHP" &&
 git push
