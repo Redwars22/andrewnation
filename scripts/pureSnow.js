@@ -1,4 +1,4 @@
-let snowflakesCount = Math.floor((Math.random() * 600) + 200);
+let snowflakesCount = Math.floor((Math.random() * 200) + 200);
 
 // let baseCss = ``; // Put your custom base css here
 

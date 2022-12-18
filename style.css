@@ -22,3 +22,8 @@ body {
 .centered {
     text-align: center;
 }
+
+.linkstand {
+    border-bottom: 10px dashed rgb(138, 0, 143);
+    padding: 10px;
+}
