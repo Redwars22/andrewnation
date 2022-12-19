@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>🛠️ Andrew Toolbox - utilitários para desenvolvedores</title>
     <link
       rel="stylesheet"
       href="https://redwars22.github.io/Schonheit/schonheit.min.css"
     />
+    <script src="../scripts/toolbox.js"></script>
   </head>
   <body style="padding: 25px">
     <header class="container moderate-margin">
@@ -19,7 +20,16 @@
       </h2>
     </header>
     <main>
-      <div class="container red-border red-bg"></div>
+      <div class="container red-border red-bg flex-center vertical minimal-gap large-margin" style="width: 50%; margin-left: auto; margin-right: auto">
+        <h1>📐️ Conversor de px para rem</h1>
+        <label for="">Insira o valor que deseja converter: </label>
+        <input class="form-input centered" id="remtopx-val" type="number" value="16" step="0.1">
+        <div class="container horizontal minimal-gap">
+          <button class="warning" onclick="pxToRem()">px para rem</button>
+          <button class="danger" onclick="remToPx()">rem para px</button>
+        </div>
+        <h1 id="remtopx">1rem</h1>
+      </div>
     </main>
   </body>
 </html>
