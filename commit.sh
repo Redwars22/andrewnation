@@ -1,3 +1,3 @@
 git add . &&
-git commit -m "adicionando conversor de px para rem" &&
+git commit -m "editando página de histórias" &&
 git push
