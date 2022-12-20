@@ -24,11 +24,14 @@ body {
   text-align: center;
 }
 
-.linkstand {
+.bottom-links-container {
   position: fixed;
-  bottom: 0px;
+  bottom: 25px;
   left: 0px;
   width: 100vw;
+}
+
+.linkstand {
   border-bottom: 10px dashed rgb(138, 0, 143);
 }
 
