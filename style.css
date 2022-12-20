@@ -1,29 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Skranji&display=swap");
 
 body {
-    background-image: url('https://redwars22.github.io/andrewnation/assets/fictoflag.jpg');
-    background-position: top;
-    font-family: 'DM Mono', monospace;
+  background-image: url("https://redwars22.github.io/andrewnation/assets/fictoflag.jpg");
+  background-position: top;
+  font-family: "DM Mono", monospace;
+  overflow-x: hidden;
 }
 
 .nav-link {
-    display: flex;
-    gap: 15px !important;
+  display: flex;
+  gap: 15px !important;
 }
 
 .card-img-top {
-    width: 150px !important;
-    height: 150px !important;
-    align-self: center;
+  width: 150px !important;
+  height: 150px !important;
+  align-self: center;
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
+}
+
+.bottom-links-container {
+  position: fixed;
+  bottom: 25px;
+  left: 0px;
+  width: 100vw;
 }
 
 .linkstand {
-    border-bottom: 10px dashed rgb(138, 0, 143);
-    padding: 10px;
+  border-bottom: 10px dashed rgb(138, 0, 143);
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+  margin-top: -2rem;
+}
+
+main {
+  margin-top: 2rem;
 }
