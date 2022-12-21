@@ -1,45 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FictoC++ - C++ com uma sintaxe moderna</title>
-    <link
-      rel="stylesheet"
-      href="https://redwars22.github.io/Schonheit/schonheit.min.css"
-    />
-  </head>
-  <body class="white-bg">
-    <header style="display: flex" class="flex-center">
-      <img
-        style="margin-top: -25px; margin-bottom: -25px;"
-        src="https://github.com/Redwars22/fictocpp/raw/main/assets/fictoc++.png"
-        alt=""
-      />
-    </header>
-    <main style="display: flex" class="flex-center vertical">
-      <div class="container horizontal">
-        <a class="button danger">
-          <i class="bi bi-github"></i>
-          Código-fonte
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FictoC++ - C++ com uma sintaxe moderna</title>
+  <link rel="stylesheet" href="https://redwars22.github.io/Schonheit/schonheit.min.css" />
+</head>
+
+<body class="white-bg">
+  <header style="display: flex" class="flex-center">
+    <img src="https://github.com/Redwars22/fictocpp/raw/main/assets/fictoc++.png" alt="" />
+  </header>
+  <main style="display: flex" class="flex-center vertical">
+    <div class="horizontal minimal-gap moderate-margin">
+      <a class="button danger" href="https://github.com/Redwars22/fictocpp">
+        <i class="bi bi-github"></i>
+        Código-fonte
+      </a>
+      <a class="button confirm" href="https://github.com/Redwars22/fictocpp/tags">
+        <i class="bi bi-download"></i>
+        Baixe o Release Candidate
+      </a>
+      <a class="button warning" href="mailto:andrewnationdev@gmail.com">
+        <i class="bi bi-bug"></i>
+        Relate um Bug
+      </a>
+    </div>
+    <video class="blue-border" src="showcase.webm" autoplay loop style="border-radius: 20px"></video>
+    <div class="container horizontal evenly-spaced large-margin flex-wrap" style="gap: 50px; align-items: flex-start;">
+      <div class="container vertical"  style="min-width: 20rem; max-width: 20rem;">
+        <h2>Fácil de compilar</h2>
+        <p>Para compilar algum arquivo em .fpp para .cpp e gerar o executável, só usar o comando</p> <code style="color: white">./ficto nomedoarquivo.fpp</code>
+      </div>
+      <div class="container vertical"   style="min-width: 20rem; max-width: 20rem;">
+        <h2>Sintaxe familiar</h2>
+        <p>
+          O FictoC++ apresenta uma sintaxe moderna e familiar a quem programa em linguagens modernas como Rust, Swift e
+          TypeScript enquanto mantém a mesma familiaridade do C++.
+        </p>
+      </div>
+      <div class="container vertical"   style="min-width: 20rem; max-width: 20rem;">
+        <h2>Pequeno</h2>
+        <p>Toda a linguagem, incluindo o transpilador de FictoC++ para C++ e arquivos de exemplo, possui menos de 7MB de tamanho!</p>
+      </div>
+    </div>
+    <div class="container vertical centered">
+      <p>O FictoC++ é livre e de código aberto e foi criado pelas seguintes pessoas incríveis:</p>
+      <div class="horizontal minimal-gap">
+        <a href="https://github.com/Redwars22/" class="">
+          <img src="https://github.com/Redwars22.png" alt="" width="50px" height="50px" class="circle">
         </a>
-        <a class="button confirm">
-          <i class="bi bi-download"></i>
-          Baixe o Release Candidate
-        </a>
-        <a class="button ">
-          <i class="bi bi-"></i>
+        <a href="https://github.com/gabrielficto/" class="">
+          <img src="https://github.com/gabrielficto.png" alt="" width="50px" height="50px" class="circle">
         </a>
       </div>
-      <video
-        class="blue-border"
-        src="showcase.webm"
-        autoplay
-        loop
-        style="border-radius: 20px"
-      ></video>
-    </main>
-    <footer></footer>
-  </body>
+    </div>
+  </main>
+  <footer class="centered">
+    <p>Página criada pelo <a href="https://redwars22.github.io/andrewnation">AndrewNation</a></p>
+  </footer>
+</body>
+
 </html>
