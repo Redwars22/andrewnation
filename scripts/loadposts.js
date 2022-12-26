@@ -4,7 +4,7 @@ const posts = [
         "date": "18 de Dezembro de 2022",
         "summary": `
             <center>
-                <img src="https://github.com/Redwars22/fictocpp/blob/main/assets/fictoc++.png?raw=true">
+                <img width="150px" height="150px" src="https://github.com/Redwars22/fictocpp/blob/main/assets/fictocpp.png?raw=true">
             </center>
             <p>
                 O FictoC++ é uma "linguagem de programação" criada por mim e um amigo meu (o repositório dele
