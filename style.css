@@ -43,6 +43,7 @@ header {
 }
 
 main {
+  margin-top: 4rem !important;
   padding-bottom: 3rem !important;
 }
 

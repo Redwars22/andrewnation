@@ -1,3 +1,3 @@
 git add . &&
-git commit -m "consertando header" &&
+git commit -m "atualizando link do arquivo de estilização" &&
 git push
