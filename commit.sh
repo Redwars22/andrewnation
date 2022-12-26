@@ -1,3 +1,3 @@
 git add . &&
-git commit -m "atualizando link do arquivo de estilização" &&
+git commit -m "atualizando sinopse de uma das histórias" &&
 git push
