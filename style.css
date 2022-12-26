@@ -38,12 +38,11 @@ body {
 
 header {
   position: fixed !important;
-  margin-top: -2rem;
+  margin-top: -4rem !important;
   width: 100vw;
 }
 
 main {
-  margin-top: 4rem !important;
   padding-bottom: 3rem !important;
 }
 
