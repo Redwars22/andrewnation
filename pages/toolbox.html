@@ -9,27 +9,80 @@
       rel="stylesheet"
       href="https://redwars22.github.io/Schonheit/schonheit.min.css"
     />
-    <script src="../scripts/toolbox.js"></script>
   </head>
   <body style="padding: 25px">
     <header class="container moderate-margin">
-      <a href="../index.html" class="button confirm">Voltar para o site principal</a>
+      <a href="../index.html" class="button confirm"
+        >Voltar para o site principal</a
+      >
       <h1 class="centered">🛠️ Andrew Toolbox</h1>
       <h2 class="centered">
         Conjunto de ferramentas para auxiliar desenvolvedores
       </h2>
     </header>
     <main>
-      <div class="container red-border red-bg flex-center vertical minimal-gap large-margin" style="width: 50%; margin-left: auto; margin-right: auto">
+      <div
+        class="container red-border red-bg flex-center vertical minimal-gap large-margin"
+        style="width: 50%; margin-left: auto; margin-right: auto"
+      >
         <h1>📐️ Conversor de px para rem</h1>
         <label for="">Insira o valor que deseja converter: </label>
-        <input class="form-input centered" id="remtopx-val" type="number" value="16" step="0.1">
+        <input
+          class="form-input centered"
+          id="remtopx-val"
+          type="number"
+          value="16"
+          step="0.1"
+        />
         <div class="container horizontal minimal-gap">
           <button class="warning" onclick="pxToRem()">px para rem</button>
           <button class="danger" onclick="remToPx()">rem para px</button>
         </div>
         <h1 id="remtopx">1rem</h1>
       </div>
+      <div
+        class="container red-border red-bg flex-center vertical large-margin"
+        style="width: 50%; margin-left: auto; margin-right: auto"
+        >
+        <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+        width="250px"
+        style="margin: -95px;"
+        />
+        <h1>💅️ Conversor de CSS para Tailwind</h1>
+        <label for="">Insira declarações CSS abaixo separadas por ; para convertê-las para classes Tailwind</label>
+        <input
+          class="form-input centered blue-border large-margin"
+          id="csstotw-val"
+          value="margin-top: 16px; justify-content: center"
+          step="0.1"
+          style="width: 45vw"
+        />
+        <div class="container horizontal minimal-gap">
+          <button class="confirm" onclick="convertCSSToTW()" style="margin-top: -75px; margin-bottom: -75px;">
+            Obter classes Tailwind
+          </button>
+        </div>
+        <div style="display: flex; gap: 10px; flex-direction: column;">
+          <div class="horizontal minimal-gap">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              width="35px"
+            />
+            <span id="css-tw">class=""</span>
+          </div>
+          <div class="horizontal minimal-gap">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              width="35px"
+            />
+            <span id="react-tw">className=""</span>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <script src="../scripts/csstotw.js"></script>
+    <script src="../scripts/toolbox.js"></script>
   </body>
 </html>
