@@ -25,9 +25,9 @@ body {
 }
 
 .bottom-links-container {
-  position: fixed;
-  bottom: 25px;
-  left: 0px;
+  /*position: fixed;*/
+  /*bottom: 25px;*/
+  /*left: 0px;*/
   width: 100vw;
 }
 
@@ -51,4 +51,8 @@ main {
   .posts-area {
     max-width: 55vw !important; 
   }
+}
+
+.ficto-logo {
+  color: rgb(204, 1, 204);
 }
