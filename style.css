@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Skranji&display=swap");
 
 body {
-  background-image: url("https://redwars22.github.io/andrewnation/assets/fictoflag.jpg");
+  background-image: url("assets/fictoflag_v2.jpeg");
   background-position: top;
   font-family: "DM Mono", monospace;
   overflow-x: hidden;
@@ -51,8 +51,41 @@ main {
   .posts-area {
     max-width: 55vw !important; 
   }
+
+  .responsive-search-input {
+    width: 40rem;
+  }
+
+  .andrew-card {
+    max-width: 50vw !important; margin-left: auto; margin-right: auto
+  }
+
+  .andrew-logo {
+    width: 550px !important;
+  }
+  
+  .responsive-github-stats {
+    width: 500px !important;
+  }
+}
+
+.responsive-search-input {
+  width: 20rem !important;
+}
+
+.andrew-card {
+  max-width: 90vw !important; margin-left: auto; margin-right: auto
+}
+
+.andrew-logo {
+  width: 250px;
+}
+
+.responsive-github-stats {
+  width: 350px;
 }
 
 .ficto-logo {
   color: rgb(204, 1, 204);
 }
+
